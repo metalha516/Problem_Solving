@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/countingsort2/problem?isFullScreen=true
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -30,6 +31,10 @@ void Counting(vector<int>&arr){
 }
 
 int main(){
-    vector<int>arr = {1, 1, 3, 2, 1};
+    int n; cin>>n;
+    vector<int>arr;
+    for(int i = 0; i<n; i++){
+        int x; cin>>x; arr.push_back(x);
+    }
     Counting(arr);
 }
