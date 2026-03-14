@@ -13,7 +13,7 @@ int insertionSort(vector<int> arr)
         while (j >= 0 && arr[j] > key) {
             arr[j + 1] = arr[j];
             j--;
-            count++;   // count the shift
+            count++;   
         }
 
         arr[j + 1] = key;
