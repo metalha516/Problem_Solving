@@ -5,7 +5,6 @@ int main(){
     long long t;
     cin>>t;
     vector<pair<long long ,long long>>term;
-    string result;
     while(t--){
         long long a;
         long long b;
@@ -18,7 +17,7 @@ int main(){
     for(long long i = 0; i<term.size(); i++){
         if(abs(term[i].first - term[i].second) > 0){ cout<<"rated"; return 0;}
     }
-    bool Decreasing = true;
+
 
     for(long long i = 0; i < term.size()-1; i++){
         if(term[i].first < term[i+1].first){
