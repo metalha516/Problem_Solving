@@ -1,0 +1,1 @@
+{"name":"Local: YesORYes","url":"d:\\Problem_solving\\YesORYes.cpp","tests":[{"id":1776612730114,"input":"10\nYES\nyES\nyes\nYes\nYeS\nNoo\norZ\nyEz\nYas\nXES","output":"YES\nYES\nYES\nYES\nYES\nNO\nNO\nNO\nNO\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\YesORYes.cpp","group":"local","local":true}
