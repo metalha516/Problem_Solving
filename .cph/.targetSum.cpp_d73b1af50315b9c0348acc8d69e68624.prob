@@ -1,0 +1,1 @@
+{"name":"Local: targetSum","url":"d:\\Problem_solving\\targetSum.cpp","tests":[{"id":1776813662433,"input":"3\n1 1 1 1 1 ","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\targetSum.cpp","group":"local","local":true}
