@@ -1,0 +1,1 @@
+{"name":"Local: Alternating_String","url":"d:\\Problem_solving\\Alternating_String.cpp","tests":[{"id":1776786478363,"input":"8\nabbaba\naaaaa\nbababba\nab\nabbaabba\nbbb\nababa\naabb","output":"YES\nNO\nYES\nYES\nNO\nYES\nYES\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\Alternating_String.cpp","group":"local","local":true}

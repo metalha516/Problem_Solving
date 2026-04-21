@@ -1,0 +1,1 @@
+{"name":"Local: Red_Black_Pairs","url":"d:\\Problem_solving\\Red_Black_Pairs.cpp","tests":[{"id":1776788678562,"input":"5\n1\nR\nB\n2\nBR\nBR\n3\nRBR\nBRB\n4\nRRBB\nBBRB\n5\nRBRBR\nBBBRB","output":"1\n0\n3\n1\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\Red_Black_Pairs.cpp","group":"local","local":true}
