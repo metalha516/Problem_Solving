@@ -1,0 +1,1 @@
+{"name":"Local: Partition_Equal_Subset_Sum","url":"d:\\Problem_solving\\Partition_Equal_Subset_Sum.cpp","tests":[{"id":1777674846880,"input":"1 5 11 5","output":"true"},{"id":1777675021972,"input":"1 2 3 5","output":"false"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\Partition_Equal_Subset_Sum.cpp","group":"local","local":true}
