@@ -1,48 +1,56 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    
-    int t;
-    cin >> t;
-    while(t--){
-        int n;
-        cin >> n;
-        vector<int> a(n);
-        for(auto& x: a) cin >> x;
-        
-        // suffix_min[i] = min(a[i..n-1])
-        vector<int> smin(n+1, INT_MAX);
-        for(int i = n-1; i >= 0; i--)
-            smin[i] = min(a[i], smin[i+1]);
-        
-        long long total = 0, fixed = 0;
-        for(int i = 0; i < n; i++){
-            total += a[i];
-            fixed += smin[i];
-        }
-        long long base = total - fixed;
-        
-    
-        vector<int> cnt(n);
-        stack<int> stk;
-        for(int k = 0; k < n; k++){
-            while(!stk.empty() && a[stk.top()] >= a[k]) stk.pop();
-            int prev = stk.empty() ? -1 : stk.top();
-            cnt[k] = k - prev;
-            stk.push(k);
-        }
-        
-        
-        long long best_gain = 0;
-        for(int k = 0; k < n; k++){
-            long long gain = (smin[k+1] >= a[k]) ? (long long)cnt[k] - 1 : -1;
-            best_gain = max(best_gain, gain);
-        }
-        
-        cout << base + best_gain << "\n";
+void solve() {
+    long long n;
+    cin >> n;
+
+    // Input array
+    vector<long long> arr(n);
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
     }
+
+    // Step 1: Build suffix minimum array
+    vector<long long> suffixMin(n);
+    suffixMin[n - 1] = arr[n - 1];
+
+    for (int i = n - 2; i >= 0; i--) {
+        suffixMin[i] = min(arr[i], suffixMin[i + 1]);
+    }
+
+    // Step 2: Calculate total difference
+    long long answer = 0;
+    for (int i = 0; i < n; i++) {
+        answer += (arr[i] - suffixMin[i]);
+    }
+
+    // Step 3: Find longest segment where suffixMin stays same
+    long long maxSame = 1;
+    long long currentSame = 1;
+
+    for (int i = 1; i < n; i++) {
+        if (suffixMin[i] == suffixMin[i - 1]) {
+            currentSame++;
+            maxSame = max(maxSame, currentSame);
+        } else {
+            currentSame = 1;
+        }
+    }
+
+    // Step 4: Add (maxSame - 1) to answer
+    answer += (maxSame - 1);
+
+    cout << answer << "\n";
+}
+
+int main() {
+    long long t;
+    cin >> t;
+
+    while (t--) {
+        solve();
+    }
+
     return 0;
 }
