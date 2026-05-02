@@ -1,11 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
+    vector<int>dp;
+
+    int solve(int n){
+        if( n == 0 || n == 1) return 1;
+        
+        if(dp[n] != -1) return dp[n];
+
+        return dp[n] = solve(n-1) + solve(n-2);
+    }
 
     int countWays(int n) {
-        if(n == 0 || n == 1) return 1;
-
-        return countWays(n-1) + countWays(n-2);
-        
+        dp.assign(n+1, -1);
+        return solve(n);
     }
 
 
