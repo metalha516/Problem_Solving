@@ -1,0 +1,1 @@
+{"name":"Local: Sereja_and_Dima","url":"d:\\Problem_solving\\Sereja_and_Dima.cpp","tests":[{"id":1777826016400,"input":"4\n4 1 2 10","output":"12 5"},{"id":1777826135768,"input":"7\n1 2 3 4 5 6 7\n","output":"16 12"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\Sereja_and_Dima.cpp","group":"local","local":true}
