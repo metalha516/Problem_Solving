@@ -1,0 +1,1 @@
+{"name":"Local: Distinct_Count","url":"d:\\Problem_solving\\Distinct_Count.cpp","tests":[{"id":1777827251614,"input":"4\n4 1\n1 4 2 5\n4 2\n4 2 1 5\n4 3\n5 2 4 1\n4 4\n1 2 4 5","output":"Average\nAverage\nAverage\nGood"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\Distinct_Count.cpp","group":"local","local":true}
