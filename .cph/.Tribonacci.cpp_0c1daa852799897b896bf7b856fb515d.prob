@@ -1,0 +1,1 @@
+{"name":"Local: Tribonacci","url":"d:\\Problem_solving\\Tribonacci.cpp","tests":[{"id":1777933091333,"input":"4","output":"4"},{"id":1777933105688,"input":"25","output":"1389537"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\Tribonacci.cpp","group":"local","local":true}
