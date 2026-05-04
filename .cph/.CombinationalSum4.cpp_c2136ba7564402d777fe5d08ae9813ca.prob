@@ -1,0 +1,1 @@
+{"name":"Local: CombinationalSum4","url":"d:\\Problem_solving\\CombinationalSum4.cpp","tests":[{"id":1777933885152,"input":"4\n1 2 3","output":"7"},{"id":1777934446064,"input":"3\n9","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\CombinationalSum4.cpp","group":"local","local":true}
