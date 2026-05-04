@@ -19,9 +19,9 @@ int reverse(int n){
 int reverseExponentiation(int n) {
         int power = reverse(n);
         int extra = 1;
-        // if(power == n || n >= 10){
-        //     extra = 0;
-        // }
+        if(power == n || n >= 10){
+            extra = 0;
+        }
         return extra+pow(n, power);  
 }
 

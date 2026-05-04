@@ -1,0 +1,1 @@
+{"name":"Local: Goals_of_Victory","url":"d:\\Problem_solving\\Goals_of_Victory.cpp","tests":[{"id":1777906312420,"input":"2\n4\n3 -4 5\n11\n-30 12 -57 7 0 -81 -68 41 -89 0","output":"-4\r\n265\r\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\Goals_of_Victory.cpp","group":"local","local":true}
