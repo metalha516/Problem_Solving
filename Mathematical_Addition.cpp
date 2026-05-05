@@ -3,10 +3,10 @@ using namespace std;
 
 
 int main(){
-    int t;
+    long long t;
     cin>>t;
     while(t--){
-        int u, v;
+        long long u, v;
         cin>>u>>v;
 
         cout<<u*u<<" "<<-v*v<<endl;
