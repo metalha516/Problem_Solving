@@ -7,8 +7,8 @@ vector<int> solve(vector<int>&b){
     a.push_back(b[0]); 
         for (long long i = 1; i < n; i++) 
         {
-            if (b[i] >= b[i - 1])
-                a.push_back(b[i]); 
+             if (b[i] >= b[i - 1])
+                a.push_back(b[i]);
             else
             {
                 a.push_back(b[i]); 
