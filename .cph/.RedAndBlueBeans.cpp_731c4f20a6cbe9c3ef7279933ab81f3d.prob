@@ -1,0 +1,1 @@
+{"name":"Local: RedAndBlueBeans","url":"d:\\Problem_solving\\RedAndBlueBeans.cpp","tests":[{"id":1778281042997,"input":"4\n1 1 0\n2 7 3\n6 1 4\n5 4 0","output":"Yes\r\nYes\r\nNo\r\nNo\r\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\RedAndBlueBeans.cpp","group":"local","local":true}
