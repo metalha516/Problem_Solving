@@ -1,0 +1,1 @@
+{"name":"Local: NumberOfIsland","url":"d:\\Problem_solving\\NumberOfIsland.cpp","tests":[{"id":1778321883638,"input":"4 5\n1 1 1 1 0\n1 1 0 1 0\n1 1 0 0 0 \n0 0 0 0 0 ","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\NumberOfIsland.cpp","group":"local","local":true}
