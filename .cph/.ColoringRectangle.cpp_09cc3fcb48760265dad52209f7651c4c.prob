@@ -1,0 +1,1 @@
+{"name":"Local: ColoringRectangle","url":"d:\\Problem_solving\\ColoringRectangle.cpp","tests":[{"id":1779231934972,"input":"4\n1 3\n2 2\n2 5\n3 5","output":"1\n2\n4\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\ColoringRectangle.cpp","group":"local","local":true}
