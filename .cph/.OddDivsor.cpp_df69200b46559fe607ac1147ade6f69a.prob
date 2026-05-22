@@ -1,0 +1,1 @@
+{"name":"Local: OddDivsor","url":"d:\\Problem_solving\\OddDivsor.cpp","tests":[{"id":1779314151186,"input":"6\n2\n3\n4\n5\n998244353\n1099511627776","output":"NO\nYES\nNO\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\OddDivsor.cpp","group":"local","local":true}
