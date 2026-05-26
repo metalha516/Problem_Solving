@@ -1,0 +1,1 @@
+{"name":"Local: AgaXorr_1516_B","url":"d:\\Problem_solving\\AgaXorr_1516_B.cpp","tests":[{"id":1779816193619,"input":"2\n3\n0 2 2\n4\n2 3 1 10\n","output":"Yes\nNo"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\AgaXorr_1516_B.cpp","group":"local","local":true}
