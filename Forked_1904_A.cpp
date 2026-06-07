@@ -3,6 +3,9 @@ using namespace std;
 
 int dx[4] = {-1, 1, -1, 1}, dy[4] = {-1, -1, 1, 1};
 
+//set a = knight position from king 
+//set b = knight position from Queen
+//ans = intersection of knight position 
 
 int main(){
     int t;
