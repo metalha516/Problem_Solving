@@ -15,11 +15,11 @@ int main() {
         sort(arr.begin(), arr.end());
 
         arr.push_back(arr[0]);
-        int sum = 0;
+        long long sum = 0;
         for(int i = 0; i<n; i++){
             sum+= max(arr[i], arr[i+1]);
         }
         sum+=n;
-        cout<<(sum <  m ? "YES" : "NO")<<endl;
+        cout<<(sum <=  m ? "YES" : "NO")<<endl;
     }
 }
