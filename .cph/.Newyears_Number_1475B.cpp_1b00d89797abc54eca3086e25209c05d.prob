@@ -1,0 +1,1 @@
+{"name":"Local: Newyears_Number_1475B","url":"d:\\Problem_solving\\Newyears_Number_1475B.cpp","tests":[{"id":1781992360938,"input":"5\n1\n4041\n4042\n8081\n8079","output":"NO\nYES\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\Newyears_Number_1475B.cpp","group":"local","local":true}
