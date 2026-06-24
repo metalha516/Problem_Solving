@@ -1,0 +1,1 @@
+{"name":"Local: game_0_1_1373B","url":"d:\\Problem_solving\\game_0_1_1373B.cpp","tests":[{"id":1782338115664,"input":"3\n01\n1111\n0011","output":"DA\nNET\nNET"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\game_0_1_1373B.cpp","group":"local","local":true}
