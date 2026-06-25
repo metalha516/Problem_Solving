@@ -1,0 +1,1 @@
+{"name":"Local: candies_1343A","url":"d:\\Problem_solving\\candies_1343A.cpp","tests":[{"id":1782425121490,"input":"7\n3\n6\n7\n21\n28\n999999999\n999999984","output":"1\r\n2\r\n1\r\n7\r\n4\r\n333333333\r\n333333328"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\candies_1343A.cpp","group":"local","local":true}
