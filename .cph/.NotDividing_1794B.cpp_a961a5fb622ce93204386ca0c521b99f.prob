@@ -1,0 +1,1 @@
+{"name":"Local: NotDividing_1794B","url":"d:\\Problem_solving\\NotDividing_1794B.cpp","tests":[{"id":1783202592289,"input":"3\n4\n2 4 3 6\n3\n1 2 3\n2\n4 2","output":"3 5 4 6 \r\n3 2 3 \r\n4 2 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\NotDividing_1794B.cpp","group":"local","local":true}
