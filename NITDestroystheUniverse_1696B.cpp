@@ -14,8 +14,6 @@ int main(){
             arr.push_back(x);
         }
 
-
-
         while(arr[0] == 0 && arr.size()>0){
             arr.erase(arr.begin());
         }
