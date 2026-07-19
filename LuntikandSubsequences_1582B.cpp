@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        cin>>n;
+        vector<long long>arr(n);
+        for(auto &i : arr){
+            cin>>i;
+        }
+        int count_0 = 0;
+        int count_1 = 0;
+        for(auto i : arr){
+            if(i == 1){
+                count_1++;
+            }
+            if(i == 0){
+                count_0++;
+            }
+        }
+
+        cout<<pow(2, count_0)*count_1<<endl;
+    }
+}
