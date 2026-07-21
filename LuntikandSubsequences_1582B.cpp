@@ -11,17 +11,18 @@ int main(){
         for(auto &i : arr){
             cin>>i;
         }
-        int count_0 = 0;
-        int count_1 = 0;
+        long long count_0 = 0;
+        long long count_1 = 0;
         for(auto i : arr){
             if(i == 1){
                 count_1++;
             }
-            if(i == 0){
+            else if(i == 0){
                 count_0++;
             }
         }
-
-        cout<<pow(2, count_0)*count_1<<endl;
+        
+        long long ways = pow(2, count_0)*count_1;
+        cout<<ways<<endl;
     }
 }
