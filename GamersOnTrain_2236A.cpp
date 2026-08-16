@@ -1,20 +1,22 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-
-int main(){
+int main()
+{
     int t;
-    cin>>t;
-    while(t--){
+    cin >> t;
+    while (t--)
+    {
         int n;
-        cin>>n;
+        cin >> n;
         int min_ = INT_MAX, max_ = INT_MIN;
-        while(n--){
+        while (n--)
+        {
             int k;
-            cin>>k;
+            cin >> k;
             min_ = min(min_, k);
             max_ = max(max_, k);
         }
-        cout<<max_-min_+1<<endl;
+        cout << max_ - min_ + 1 << endl;
     }
 }
