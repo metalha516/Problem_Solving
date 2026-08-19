@@ -1,0 +1,1 @@
+{"name":"Local: Domino_tiles_2256B","url":"d:\\Problem_solving\\Domino_tiles_2256B.cpp","tests":[{"id":1787177459248,"input":"4\n2\n??\n5\n0?1??\n5\n0?0??\n8\n00110011","output":"4\n2\n0\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\Domino_tiles_2256B.cpp","group":"local","local":true}
