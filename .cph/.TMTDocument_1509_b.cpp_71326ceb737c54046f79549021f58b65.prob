@@ -1,0 +1,1 @@
+{"name":"Local: TMTDocument_1509_b","url":"d:\\Problem_solving\\TMTDocument_1509_b.cpp","tests":[{"id":1787436044658,"input":"5\n3\nTMT\n3\nMTT\n6\nTMTMTT\n6\nTMTTTT\n6\nTTMMTT\n","output":"YES\nNO\nYES\nNO\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\TMTDocument_1509_b.cpp","group":"local","local":true}
