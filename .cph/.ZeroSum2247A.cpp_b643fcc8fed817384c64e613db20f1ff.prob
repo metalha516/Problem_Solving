@@ -1,0 +1,1 @@
+{"name":"Local: ZeroSum2247A","url":"d:\\Problem_solving\\ZeroSum2247A.cpp","tests":[{"id":1787869596769,"input":"5\n1\n-1\n2\n1 -1\n2\n1 1\n5\n1 -1 1 -1 1\n6\n-1 1 -1 -1 -1 -1","output":"NO\nYES\nNO\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\ZeroSum2247A.cpp","group":"local","local":true}
