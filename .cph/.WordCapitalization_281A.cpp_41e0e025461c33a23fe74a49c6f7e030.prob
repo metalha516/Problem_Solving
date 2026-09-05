@@ -1,0 +1,1 @@
+{"name":"Local: WordCapitalization_281A","url":"d:\\Problem_solving\\WordCapitalization_281A.cpp","tests":[{"id":1788425758881,"input":"ApPle","output":"ApPle"},{"id":1788425774603,"input":"aple","output":"Aple"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\WordCapitalization_281A.cpp","group":"local","local":true}
