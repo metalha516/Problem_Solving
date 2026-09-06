@@ -1,0 +1,1 @@
+{"name":"Local: EraseZeroes_1303A","url":"d:\\Problem_solving\\EraseZeroes_1303A.cpp","tests":[{"id":1788732628692,"input":"3\n010011\n0\n1111000","output":"2\n0\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Problem_solving\\EraseZeroes_1303A.cpp","group":"local","local":true}
