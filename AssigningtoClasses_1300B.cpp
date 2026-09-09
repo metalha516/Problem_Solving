@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        cin>>n;
+        vector<int>arr(n*2);
+        for(auto &i : arr){
+            cin>>i;
+        }
+        sort(arr.begin(), arr.end());
+        cout<<abs(arr[n] - arr[n-1])<<endl;
+    }
+}
